@@ -1,17 +1,17 @@
 const textConfig = {
   text1: "Hi Tram! (My friend picked this random image :) )",
-  text2: "I made this during my math class so please be easy on me :)",
+  text2: "I made this during my boring math class so please be easy on me :)",
   text3: "Happyy Lunarr Neww Yearr Tram",
   text4: "I don't know what to give you so...just click continue (try to click no :))",
   text5: "No!",
   text6: "I want my liii xii",
-  text7: "Hi! tớ biết mà, còn gì nữa khummm",
-  text8: "Gửi cho tớ <3",
-  text9: "C đẹp try vlllll",
-  text10: "Tớ cũng biết mà ^^ Yêu cậu 300.000",
+  text7: "What do you want for new year?(anything, more than 3 things)",
+  text8: "Send to James",
+  text9: "I want to rob you for a billion dollars",
+  text10: "I'm so sad knowing that Tram",
   text11:
-    "Xin lỗi dạo này tớ có hơi bị sợ làm phiền c nên k nhắn tin cho c nhiều lắm... Nhưng mà tớ vẫn thích c nhiềuuuu lắm nên là hôm đi hội thảo có gì để tớ bao ăn chuộc lỗi cho nhéee :>",
-  text12: "Okii <3",
+    "I'm just kidding 😁.Chúc mừng năm mới Trâm nha. Chúc Trâm học giỏi xinh đẹp nhiều may mắn nha 😁.",
+  text12: "Click here for more",
   text13: "(try to choose no)"
 };
 
@@ -133,14 +133,21 @@ $(document).ready(function () {
     }).then((result) => {
       if (result.value) {
         Swal.fire({
-          width: 900,
-          confirmButtonText: textConfig.text12,
-          background: '#fff url("img/iput-bg.jpg")',
-          title: textConfig.text10,
-          text: textConfig.text11,
-          confirmButtonColor: "#83d0c9",          
+            width: 900,
+            confirmButtonText: textConfig.text12, // Corrected this line
+            background: '#fff url("img/iput-bg.jpg")',
+            title: textConfig.text10,
+            text: textConfig.text11,
+            confirmButtonColor: "#83d0c9",
+            // Add this code for redirection:
+        }).then((result) => {
+            if (result.isConfirmed) { // Check if the user clicked the "Click here for more" button
+                window.open('https://forms.gle/HtJn15YSWJrmMSrr9', '_blank'); // Open the link in a new tab
+            }
         });
-      }
+
+
+       }
     });
 
     $("#txtReason").focus(function () {
@@ -153,3 +160,4 @@ $(document).ready(function () {
     });
   });
 });
+
