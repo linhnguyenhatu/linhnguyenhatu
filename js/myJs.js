@@ -1,10 +1,10 @@
 const textConfig = {
-  text1: "He luu!",
-  text2: "Ngồi rảnh rỗi nên tớ có làm màu ra được cái này (づ｡◕‿‿◕｡)づ",
-  text3: "Chúc cậu national gf day vui vẻee",
-  text4: "Ogee thế giờ cậu có muốn nói gì nữa khum",
-  text5: "Làm màu vl :vvvv",
-  text6: "Có chứ, tớ thích cậu lắm áaa",
+  text1: "Hi Tram! (My friend picked this random image :) )",
+  text2: "I made this during my math class so please be easy on me :)",
+  text3: "Happyy Lunarr Neww Yearr Tram",
+  text4: "I don't know what to give you so...just click continue (try to click no :))",
+  text5: "No!",
+  text6: "I want my liii xii",
   text7: "Hi! tớ biết mà, còn gì nữa khummm",
   text8: "Gửi cho tớ <3",
   text9: "C đẹp try vlllll",
@@ -12,6 +12,7 @@ const textConfig = {
   text11:
     "Xin lỗi dạo này tớ có hơi bị sợ làm phiền c nên k nhắn tin cho c nhiều lắm... Nhưng mà tớ vẫn thích c nhiềuuuu lắm nên là hôm đi hội thảo có gì để tớ bao ăn chuộc lỗi cho nhéee :>",
   text12: "Okii <3",
+  text13: "(try to choose no)"
 };
 
 $(document).ready(function () {
@@ -27,6 +28,7 @@ $(document).ready(function () {
 
   $("#text3").html(textConfig.text3);
   $("#text4").html(textConfig.text4);
+  $("#text13").html(textConfig.text4);
   $("#no").html(textConfig.text5);
   $("#yes").html(textConfig.text6);
 
