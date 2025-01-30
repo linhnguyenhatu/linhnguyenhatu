@@ -1,17 +1,17 @@
 const textConfig = {
   text1: "Hi Tram! (My friend picked this random image :) )",
-  text2: "I made this during my boring math class so please be easy on me :)",
+  text2: "I made this during my math class so please go easy on me 🙂",
   text3: "Happyy Lunarr Neww Yearr Tram",
   text4: "I don't know what to give you so...just click continue (try to click no :))",
   text5: "No!",
   text6: "I want my liii xii",
   text7: "What do you want for new year?(anything, more than 3 things)",
-  text8: "Send to James",
-  text9: "I want to rob you for a billion dollars",
+  text8: "Send",
+  text9: "I want to take all your lucky moneyyy",
   text10: "I'm so sad knowing that Tram",
   text11:
-    "I'm just kidding 😁.Chúc mừng năm mới Trâm nha. Chúc Trâm học giỏi xinh đẹp nhiều may mắn nha 😁.",
-  text12: "Click here for more",
+    "I'm just kidding 😁.Chúc mừng năm mới Trâm nha. Chúc Trâm học giỏi xinh đẹp và gặp nhiều may mắn nha 😁 🧧 🧧.",
+  text12: "Please click here",
   text13: "(try to choose no)"
 };
 
